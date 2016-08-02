@@ -6,7 +6,7 @@ $( document ).ready(function() {
       ajaxString = JSON.stringify(qs);
       $('#result').val(ajaxString);
 
-      $('#js').val('url = \'http://\';\ndatai = ' + ajaxString + ';\njQuery.ajax(url, data);');i
+      $('#js').val('url = \'http://\';\ndata = ' + ajaxString + ';\njQuery.ajax(url, data);');i
 
    });
 
